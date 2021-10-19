@@ -8,6 +8,8 @@ GEM
       addressable
     diff-lcs (1.4.4)
     method_source (1.0.0)
+    nokogiri (1.12.4-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.12.4-x86_64-linux)
       racc (~> 1.4)
     pry (0.14.1)
@@ -30,6 +32,7 @@ GEM
     rspec-support (3.10.2)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-linux
 
 DEPENDENCIES
@@ -39,4 +42,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   2.2.26
+   2.2.29
